@@ -1,0 +1,40 @@
+.basic{
+    width: 320px;
+    height: 120px;
+    background-color: rgb(0, 198, 248);
+    margin: 10px auto;
+    padding: 40px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(125, 100, 130, 0.5);
+}
+
+.title{
+    font-size: 35px;
+    font-family: math;
+    margin-bottom: 25px;
+}
+
+.list{  
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(187, 98, 255);
+    
+}
+
+.item{   
+     display: flex;
+    flex-direction: column;
+}
+
+.label{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.percentage{
+    font-size: 15px;
+    font-family: fantasy;
+}
