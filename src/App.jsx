@@ -9,12 +9,12 @@ import { Transactions } from 'components/Transactions/Transactions';
 
 
 export const App = () => {
-  return(
-  <>
-  <Profile user={user}/>
-  <Statistic title="Upload stats" stats={data}/>
-  <FriendsList friends={friends}/>
-  <Transactions items={transactions}/>
-  </>
+  return (
+    <>
+      <Profile user={user} />
+      <Statistic title="Upload stats" stats={data} />
+      <FriendsList friends={friends} />
+      <Transactions items={transactions} />
+    </>
   );
 };
